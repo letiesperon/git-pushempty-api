@@ -1,0 +1,24 @@
+# Environment files that may contain sensitive data
+.env
+.env.development
+
+# Vscode
+.vscode
+
+# Dataset
+*.csv
+/data/*.json
+
+# Mac finder artifacts
+.DS_Store
+
+# Textmate project files
+/*.tmproj
+/*.sublime-project
+/*.sublime-workspace
+
+# Vim artifacts
+*.swp
+
+# Node Modules
+/node_modules
